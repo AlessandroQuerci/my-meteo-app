@@ -1,0 +1,47 @@
+.bg-my-navbar {
+  background-color: #323031;
+}
+
+.logo {
+  width: 12%;
+}
+
+.fs-7 {
+  font-size: 0.75rem;
+}
+
+.fs-8 {
+  font-size: 0.5rem;
+}
+
+.App-logo {
+  pointer-events: none;
+  width: 8%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bg-home {
+  background-color: #3d3b3c;
+}
+
+#custom-input:focus {
+  border: 0;
+  outline: none;
+  transition: border-color 0.3s ease;
+  box-shadow: 0 0 32px 4px rgba(255, 255, 255, 0.7);
+  transition: box-shadow 0.3s ease;
+}
